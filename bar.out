@@ -1,0 +1,189 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2020.1                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **   OptiStruct includes an enhanced proprietary version of NASTRAN   **
+ **                                                                    **
+ **                                                                    **
+ **                 Windows 10  (Build 9200)  KENDRICK                 **
+ **          8 CPU:  Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz          **
+ **                    2465 MB RAM,  10383 MB swap                     **
+ **                                                                    **
+ ** Build: 1030976_1433201_Ce64RB68UH14M:180642-100  60040040000000040 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2020                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2020-edu/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ *** WARNING 1932:      MAT  ID    1 is not referenced.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : C:/Users/VISHAL/Downloads/Eleation/bar.fem
+  Output files prefix          : C:/Users/VISHAL/Downloads/Eleation/bar
+  Model read from files:
+ (*1)	    C:/Users/VISHAL/Downloads/Eleation/bar.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :         2
+  Total # of Elements                  :         1
+  Total # of Degrees of Freedom        :         6
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :        21
+
+ 
+  Element Type Information
+  ------------------------
+
+   CBAR     Elements   :        1
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         1
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PBAR   Cards      :         1
+   MAT1   Cards      :         2
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            2          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : C:/Users/VISHAL/Downloads/Eleation/
+   Scratch file directory          : C:/Users/VISHAL/Downloads/Eleation/
+                                     Free space:   133.455 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Memory (RAM) Allocated in Preprocessor                  :     800 MB
+ Estimated Memory (RAM) for Out of Core Solution         :       2 MB
+ Estimated Memory (RAM) for In-Core Solution             :       2 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :       7 MB
+ Estimated Scratch Disk Space for In-Core Solution       :       1 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :       1 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 1 MB)
+(Running in-core solution)
+
+Volume                              =  5.00000E+06   Mass     =  0.00000E+00
+
+ Subcase   Compliance     Epsilon
+       1  3.521127E+03  0.000000E+00
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                       800 MB
+ MAXIMUM DISK SPACE USED                                     1 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Tue Mar 16 15:13:55 2021    
+ EXECUTION COMPLETED                       Tue Mar 16 15:13:55 2021    
+ ELAPSED TIME                                         00:00:00
+ CPU TIME                                             00:00:00
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
